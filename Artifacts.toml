@@ -1,0 +1,42 @@
+[[HDF5]]
+arch = "aarch64"
+git-tree-sha1 = "f23a44b8e220a9f0077c90e942297ee264adc4cf"
+libc = "glibc"
+os = "linux"
+
+    [[HDF5.download]]
+    sha256 = "4abe03374ae7e373ffe0d249ec4919b6efe9867370949a00b21cd2a7994382d7"
+    url = "https://github.com/musm/HDF5_jll.jl/releases/download/HDF5-v1.12.0+0/HDF5.v1.12.0.aarch64-linux-gnu.tar.gz"
+[[HDF5]]
+arch = "i686"
+git-tree-sha1 = "9622885f7469841937b4c06f8926b270755adb9f"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "85c2ccd3077938e6b83459cfe92ace72585738e5fd8b378488a15cd195f3f1c1"
+    url = "https://github.com/musm/HDF5_jll.jl/releases/download/HDF5-v1.12.0+0/HDF5.v1.12.0.i686-w64-mingw32.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+git-tree-sha1 = "a2ac0a9ab40a0e7d3c548e7d4a9e3d05e80aaeab"
+os = "macos"
+
+    [[HDF5.download]]
+    sha256 = "bb7a6cc679f5b9c42cb3a7d8531249d46ee18c02599f24e74071f3eb3ca2a6bb"
+    url = "https://github.com/musm/HDF5_jll.jl/releases/download/HDF5-v1.12.0+0/HDF5.v1.12.0.x86_64-apple-darwin.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+git-tree-sha1 = "ba4fe17ad15bbcc1641fc9b93c67258237cef40a"
+libc = "glibc"
+os = "linux"
+
+    [[HDF5.download]]
+    sha256 = "a92f1e330c258b1894c4627d3494af8174660a2becf2da0a4a84a14e5cbefc21"
+    url = "https://github.com/musm/HDF5_jll.jl/releases/download/HDF5-v1.12.0+0/HDF5.v1.12.0.x86_64-linux-gnu.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+git-tree-sha1 = "4f813070c9673bcc1b6ffb1285c0c23a01a9e801"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "4e2927bdfa1120ac75f9dbc2a7e814610aa052aefc3f65d7639cdeeb3744c63b"
+    url = "https://github.com/musm/HDF5_jll.jl/releases/download/HDF5-v1.12.0+0/HDF5.v1.12.0.x86_64-w64-mingw32.tar.gz"
